@@ -1,6 +1,6 @@
 Feature: Search Google
-
-Scenario: Common search
-Given I'm at Google
-When I search word 'github'
-Then I have some results
+  Scenario: Common search
+    Given I'm at Google
+    When I type search word 'github'
+    And Press 'Search'
+    Then I have some results
